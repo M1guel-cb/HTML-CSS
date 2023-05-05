@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body {
+    font-family: Bahnschrift, Arial, Helvetica, sans-serif;
+    /*Medidas relativas: em, ex, rem, vw, vh, %, etc
+    Medidas absolutas: cm, mm, in, px, pt, pc
+
+    W3C recomenda o uso do px e do em
+    
+    16px normalmente = 1.0em*/
+    font-size: 1em;
+    font-weight: light;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+}

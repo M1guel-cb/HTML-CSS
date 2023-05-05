@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semântica</title>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+
+    <h2>Negrito</h2>
+    <p>Forma: <b>Negrito</b><br>
+    Significado: <strong>Negrito</strong></p>
+    
+    <h2>Itálico / Ênfase</h2>
+    <p>Forma: <i>Itálico</i><br>
+    Siginificado: <em>Ênfase</em></p>
+    
+    <h2>Texto Marcado</h2>
+    <p><mark>Texto marcado</mark></p>
+    
+    <h2>Texto Grande</h2>
+    <p>Texto normal - <big>Texto grande</big></p> <!--Não semântico-->
+    
+    <h2>Texto Pequeno</h2>
+    <p>Texto normal - <small>Texto pequeno</small></p>
+    
+    <h2>Texto Deletado</h2>
+    <p><del>Texto deletado</del></p>
+    
+    <h2>Texto Inserido</h2>
+    <p><u>Texto inserido</u></p>
+    
+    <h2>Texto Sobescrito</h2>
+    <p>NaCl<sup>-1</sup></p>
+    
+    <h2>Texto Subscrito</h2>
+    <p>H<sub>2</sub>O</p>
+
+    <h2>Código</h2>
+    <code>print("Olá Mundo!!!");
+    <pre>
+n1 = float(input('Digite a sua nota no 1º semestre: '))
+n2 = float(input('Digite a sua nota no 2º semestre: '))
+print('Sua média foi {:.2f}.'.format((n1 + n2) / 2))
+if (n1 + n2) / 2 < 5:
+    print('Você foi REPROVADO!')
+elif (n1 + n2) / 2 >= 5 and (n1 + n2) / 2 < 7:
+    print('Você está de recuperação!')
+else:
+    print('PARABÉNS, você foi aprovado com uma média de {}!'.format((n1 + n2) / 2))
+    </code>
+    </pre>
+
+    <h2>Citação Simples</h2>
+    <p>Como diria um velho amigo meu: <q>O palmeiras não tem mundial.</q></p>
+
+    <h2>Citação Complexa</h2>
+    <p>Segundo Hernanas, ídolo do São Paulo FC:</p>
+    <blockquote><q>Se você não nasceu sendo, treine até se tornar.</q></blockquote>
+
+    <h2>Abreviação</h2>
+    <p><abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+    
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">SocorramMeSubiNoÔnibusEmMarrocos</bdo></p>
+</body>
+</html>

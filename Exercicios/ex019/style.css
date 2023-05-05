@@ -1,0 +1,36 @@
+@charset "UTF-8";
+main {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px #935b069e;
+    width: 1000px;
+    padding: 15px;
+    margin: auto;
+}
+body {
+    background-color: #F5B400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #755600;
+    text-align: left;
+}
+#principal {
+    text-align: center;
+    color: #362700;
+}
+h2 {
+    text-align: justify;
+    color: #755600;
+}
+.basico {
+    color: #0a7500;
+}
+.inter {
+    color: #717500;
+}
+.avanc {
+    color: #750000;
+}
+/* id = #
+class = .*/
