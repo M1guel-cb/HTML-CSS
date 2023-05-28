@@ -1,9 +1,57 @@
 @charset "UTF-8";
 
 @media print {
-    
+    body {
+        background-image: url(../imagens/back-print.jpg);
+    }
+    main {
+        border: 2px solid black
+    }
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+    #imp {
+        display: block;
+    }
+    #cel {
+        display: none;
+    }
 }
 
-@media screen and (max-width: ) {
-    
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    #tab {
+        display: block;
+    }
+    #cel {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #pc {
+        display: block;
+    }
+    #cel {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    #tv {
+        display: block;
+    }
+    #cel {
+        display: none;
+    }
 }
